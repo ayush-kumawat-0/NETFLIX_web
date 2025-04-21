@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #page4 {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(312deg, #342F6C 0%, #4F5BFF 0.01%, #0B0E40 99.16%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #page4 .imgLeft {
+            width: 45%;
+            height: 50%;
+            position: absolute;
+            left: -200px;
+            top: -80px;
+        }
+
+        #page4 .imgRight {
+            position: absolute;
+            width: 100%;
+            /* height: 100%; */
+            scale: 1.4;
+            right: -60px;
+            top: 20px;
+        }
+
+        #page4 .textContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid red;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="page4">
+
+
+        <div class="imgLeft rellax" data-rellax-speed="-10"">
+            <img src="/Websites/Web1/4c1411c6-7f8e-4a62-a4a2-ce2233c08c5c.webp" alt="">
+        </div>
+        <div class="imgRight  rellax" data-rellax-speed="10"">
+            <img src="/Websites/Web1/Media/3d1bb304-5e16-4599-bd49-471f2a4bffbf.webp" alt="">
+        </div>
+
+        <div class="textContainer">
+            <h1>Golden standard in UX + AI</h1>
+            <p>Look, we’ve been designing AI experiences since 2017, and we’re not just dabbling in it; <br>we’re
+                dominating. We’ve tackled Adtech, Salestech, Fintech, Legaltech, Media — you name it. </p>
+            <p>What to see how we do it?</p>
+            <div class="btn">Check our UI + AI innovation here</div>
+        </div>
+
+
+    </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+    integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+    var rellax = new Rellax('.rellax');
+</script>
+
+</html>

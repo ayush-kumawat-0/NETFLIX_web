@@ -1,0 +1,65 @@
+@media only screen and (max-width:1200px) {
+    #last {
+        padding: 0 2rem;
+
+    }
+    .second {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 0.5rem;
+    }
+    .cardText{
+        padding: 1.5rem 1.5rem 6rem 1.5rem;
+    }
+    .faq .membership .email input{
+        padding: 16px;
+    }
+    .first_content :first-child{
+        font-size: 40px;
+        width: 550px;
+    }
+    .first_content :nth-child(2){
+        font-size: 16px;
+    }
+    .first_content :nth-child(3){
+        width: 550px;
+        text-align: center;
+    }
+    .main{
+        max-height: min(80vh, 45rem);
+        border: 2px solid red;
+    }
+    .last_content input{
+        height: 22px;
+    }
+    .content .last_content button{
+        width: 180px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    #last {
+        padding: 0 1rem;
+    }
+    .second{
+        grid-template-columns: 1fr;
+    }
+    .cardText{
+        padding: 1.5rem 1rem 6rem 1rem;
+    }
+    .question{
+        font-size: 18px;
+    }
+    .answer p{
+        font-size: 18px;
+    }
+    .main{
+        max-height: 37rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #last{
+        padding: 0rem;
+    }
+}
